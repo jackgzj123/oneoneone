@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item54activity.Item54YueActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ETC余额"
+            android:textColor="#fff"
+            android:textSize="45dp"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item54_yue_car1"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="1"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="59dp"
+            android:src="@mipmap/baoma" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item54_yue_car1name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：葛张杰"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="余额："
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_yue_car1yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:id="@+id/item54_yue_car2"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="2"
+            android:textSize="35sp"/>
+
+        <ImageView
+
+            android:layout_width="63dp"
+            android:layout_height="59dp"
+            android:src="@mipmap/zhonghua" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item54_yue_car2name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：葛张杰"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="余额："
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_yue_car2yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:id="@+id/item54_yue_car3"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="3"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="59dp"
+            android:src="@mipmap/benchi" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item54_yue_car3name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：葛张杰"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="余额："
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_yue_car3yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:id="@+id/item54_yue_car4"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="4"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="59dp"
+            android:src="@mipmap/mazhida" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item54_yue_car4name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：葛张杰"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="余额："
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_yue_car4yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:id="@+id/item54_yue_car5"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="5"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:layout_width="63dp"
+            android:layout_height="59dp"
+            android:src="@mipmap/qirui" />
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item54_yue_car5name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="辽A10001"
+                android:textSize="20sp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车主：葛张杰"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="余额："
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_yue_car5yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+</LinearLayout>

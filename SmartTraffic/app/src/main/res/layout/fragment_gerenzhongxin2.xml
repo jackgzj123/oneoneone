@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="#D8D3D3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/touxiang_2"/>
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="葛张杰"/>
+        <TextView
+            android:layout_marginLeft="270dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总支出"/>
+        <TextView
+            android:id="@+id/item3_tatolpride"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,300.00"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item3_list"></ListView>
+</LinearLayout>

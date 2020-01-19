@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.Item6Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc"
+        >
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/change"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红绿灯管理"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红绿灯信息管理"
+            android:textColor="#000000"
+            android:textSize="35sp"/>
+
+        <ImageView
+            android:layout_marginLeft="300dp"
+            android:id="@+id/item6_red"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/red_bg_01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="排序："
+            android:textColor="#000000"
+            android:textSize="35sp"/>
+        <Spinner
+            android:layout_gravity="center_vertical"
+            android:id="@+id/item6_spinner"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item6_btn"
+            android:background="@drawable/btnstyle"
+            android:layout_marginTop="-9dp"
+            android:text="查询"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/item6_lukou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="路口" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/item6_hongdeng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="红灯时长（S）" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/item6_huangdeng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="黄灯时长（S）" />
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/item6_lvdeng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:text="绿灯时长（S）" />
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item6_list"></ListView>
+</LinearLayout>

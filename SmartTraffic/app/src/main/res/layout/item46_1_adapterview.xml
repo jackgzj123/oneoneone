@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item46_1_adapter_number"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="1"
+            android:background="@drawable/circle5"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/item46_1_adapter_name"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="巨龙大道"
+
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="353dp"
+        android:background="#0723FA" />
+</LinearLayout>

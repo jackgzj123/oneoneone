@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.CollectionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="用户收藏"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/collection_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:text="无收藏"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/collection_lidstview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

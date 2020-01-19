@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/daohang"
+        android:gravity="center"
+        android:background="@drawable/edtt22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="导航地图"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/yejing"
+        android:gravity="center"
+        android:background="@drawable/edtt22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="夜景地图"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/putong"
+        android:gravity="center"
+        android:background="@drawable/edtt22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="普通地图"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/weixing"
+        android:gravity="center"
+        android:background="@drawable/edtt22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="卫星地图"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/lukuang"
+        android:gravity="center"
+        android:background="@drawable/edtt22"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#000"
+        android:text="路况地图"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.Item11aActivity">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#3544A5"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="66dp"
+            android:src="@mipmap/change"/>
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="#ffffff"
+            android:text="账户管理"/>
+        <TextView
+            android:id="@+id/item11a_piliang"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:text="批量充值"/>
+
+        <TextView
+            android:id="@+id/item11a_jilv"
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:text="充值记录"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="#D8CCCC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="车辆编号"/>
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="账户余额"/>
+        <TextView
+            android:layout_marginLeft="165dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="选项"/>
+        <TextView
+            android:layout_marginLeft="210dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="操作"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item11a_car1"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="1"
+            android:textSize="35sp"/>
+
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:id="@+id/item11a_car1yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:id="@+id/item11a_car1ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ok"/>
+
+        <Button
+            android:id="@+id/item11a_car1chong"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:background="@drawable/btnstyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item11a_car2"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="2"
+            android:textSize="35sp"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:id="@+id/item11a_car2yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:id="@+id/item11a_car2ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ok"/>
+
+        <Button
+            android:id="@+id/item11a_car2chong"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:background="@drawable/btnstyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item11a_car3"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="3"
+            android:textSize="35sp"/>
+
+
+
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:id="@+id/item11a_car3yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:id="@+id/item11a_car3ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ok"/>
+
+        <Button
+            android:id="@+id/item11a_car3chong"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:background="@drawable/btnstyle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item11a_car4"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="4"
+            android:textSize="35sp"/>
+
+
+
+        <TextView
+            android:layout_marginLeft="120dp"
+            android:id="@+id/item11a_car4yue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="100"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:id="@+id/item11a_car4ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ok"/>
+
+        <Button
+            android:id="@+id/item11a_car4chong"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值"
+            android:background="@drawable/btnstyle"/>
+    </LinearLayout>
+
+</LinearLayout>

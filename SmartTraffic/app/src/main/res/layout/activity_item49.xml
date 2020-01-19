@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item49activity.Item49Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="车辆违章"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:text="车牌号：鲁"/>
+        <EditText
+            android:id="@+id/item49_ed"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/edtt9"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:hint="A10074"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item49_btn"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:background="@drawable/btnstyle4"
+        android:text="立即查询"/>
+
+
+</LinearLayout>

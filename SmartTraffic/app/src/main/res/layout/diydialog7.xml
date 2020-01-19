@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/edtt9"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:background="@drawable/edtt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialog7_quit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#1C9EEC"
+            android:textSize="35sp"
+            android:textColor="#000"
+            android:text="取消"
+            android:gravity="center"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#1C9EEC"
+            android:textSize="35sp"
+            android:textColor="#000"
+            android:text="选择日期"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/dialog7_sure"
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#1C9EEC"
+            android:textSize="35sp"
+            android:textColor="#000"
+            android:text="确定"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/dialog7_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

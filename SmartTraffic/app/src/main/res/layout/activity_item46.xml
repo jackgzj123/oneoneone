@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item46activity.Item46Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="实时交通"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/item46_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="地图"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:background="@drawable/edtt16">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="380dp"
+            android:layout_height="55dp"
+            android:background="@drawable/edtt17">
+
+            <ImageView
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/search"/>
+            <EditText
+                android:maxLines="1"
+                android:id="@+id/item46_ed"
+                android:layout_gravity="center_vertical"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:hint="请输入公交车线路"
+                android:textColorHint="#fff"
+                android:textSize="25sp"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/item46_searchbtn"
+            android:background="@drawable/circle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:text="搜索"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="搜索历史"/>
+    <View
+        android:layout_width="500dp"
+        android:layout_gravity="center"
+        android:layout_height="2dp"
+        android:background="#CAC7C7"/>
+    <ListView
+        android:id="@+id/item46_listview"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/item46_clear"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="清空搜索历史"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".ui.activity.Item17Activity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/item17_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+<!--   <LinearLayout-->
+<!--        android:id="@+id/dot_layout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:orientation="horizontal">-->
+<!--      -->
+<!--   </LinearLayout>-->
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/item17_group">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item17_rb1"
+            android:button="@null"
+            android:background="@drawable/group"
+            android:checked="true"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb2"
+            android:background="@drawable/group" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb3"
+            android:background="@drawable/group" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb4"
+            android:background="@drawable/group" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb5"
+            android:background="@drawable/group" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb6"
+            android:background="@drawable/group" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:id="@+id/item17_rb7"
+            android:background="@drawable/group" />
+    </RadioGroup>
+
+
+</LinearLayout>

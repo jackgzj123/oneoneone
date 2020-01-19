@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item46activity.Item46_1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:id="@+id/item46_1_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="1路"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:text="巨龙大道-后襄河北路"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="首"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/circle3"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="06:23:00"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="末"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/circle4"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="06:23:00"
+                    android:textSize="20sp"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="94dp"
+            android:background="#DBD7D7"
+            android:layout_toLeftOf="@+id/item46_1_img"/>
+        <ImageView
+            android:id="@+id/item46_1_img"
+            android:layout_width="136dp"
+            android:layout_height="94dp"
+            android:src="@mipmap/zhongzhuan"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#D5D0D0"/>
+
+    <LinearLayout
+        android:background="#fff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全程"
+            android:textSize="30sp"
+            android:textColor="#000" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25站/20公里"
+            android:textSize="30sp"
+            android:textColor="#1078F3" />
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="票价：最高票价8元"
+            android:textSize="25sp"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/item46_1_listview"/>
+
+
+</LinearLayout>

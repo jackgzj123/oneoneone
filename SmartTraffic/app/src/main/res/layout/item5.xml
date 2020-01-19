@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/edtt"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:background="@drawable/edtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/lukou_item"/>
+
+
+    <TextView
+        android:background="@drawable/edtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/hong_item"/>
+
+
+    <TextView
+        android:background="@drawable/edtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/huang_item"/>
+
+    <TextView
+        android:background="@drawable/edtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/lv_item"/>
+
+    <ImageView
+        android:id="@+id/select_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@mipmap/ok"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/sz_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@mipmap/ok"
+        android:background="@drawable/btnstyle"
+        android:text="设置"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

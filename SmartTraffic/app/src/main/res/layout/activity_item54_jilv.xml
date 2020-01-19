@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item54activity.Item54JilvActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+        <ImageView
+            android:id="@+id/item29jilu_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ETC充值记录"
+            android:textColor="#fff"
+            android:textSize="45dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#999797"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_marginLeft="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="充值记录："
+            android:textColor="#fff"
+            android:textSize="35sp"/>
+        <TextView
+            android:id="@+id/item54_jilv_totalmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="245"
+            android:textColor="#fff"
+            android:textSize="35sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="元"
+            android:textColor="#fff"
+            android:textSize="35sp"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/item54_jilv_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

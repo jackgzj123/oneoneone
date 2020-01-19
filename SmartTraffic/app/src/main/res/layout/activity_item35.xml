@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.Item35Activity">
+
+    <TextView
+        android:background="@drawable/edtt7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="IC卡充值"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/edtt8">
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="人员姓名：   管理员"/>
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text=" I C 卡 号：   123456"/>
+        <TextView
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:text="账户余额：   50"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="充值余额："/>
+            <EditText
+                android:id="@+id/item35_ed"
+                android:layout_marginLeft="15dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edtt8"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/item35_chong"
+                android:background="@drawable/btnstyle1"
+                android:layout_marginLeft="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="充值"/>
+            <Button
+                android:id="@+id/item35_miss"
+                android:background="@drawable/btnstyle1"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:text="退出"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item49activity.Item49_1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="查询结果"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_marginLeft="10dp"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:background="#4a9fdc"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:text="违章记录"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/start" />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#45A3DB"
+            android:text="学院路"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:background="@drawable/edtt18"
+            android:textColor="#fff"
+            android:text="未处理"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:text="遇前方机动车停车排队等候或者缓慢行驶时，在人行横道、网状线区域内停车等候的车辆违章查询结构页面，如下图所示："/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/item49_1_left"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/arrow_left"/>
+
+        <ImageView
+            android:id="@+id/item49_1_img"
+            android:layout_marginLeft="50dp"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/item49_1_left"
+            android:background="@mipmap/weizhang01" />
+
+        <ImageView
+            android:id="@+id/item49_1_video"
+            android:layout_marginRight="50dp"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/item49_1_right"
+            android:background="@mipmap/video" />
+        <ImageView
+            android:id="@+id/item49_1_right"
+            android:layout_centerVertical="true"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/arrow_right"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:text="违章：0"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:text="罚款：0"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:text="扣分：0"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

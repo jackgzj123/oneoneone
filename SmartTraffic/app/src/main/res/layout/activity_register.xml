@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc"
+        >
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/change"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户注册"
+            android:textColor="#fff"
+            android:textSize="35dp"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+    <android.support.design.widget.TextInputLayout
+        app:errorTextAppearance="@style/TextAppearance.Design.Error"
+        android:id="@+id/register_textInputLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="200dp">
+
+        <EditText
+            android:id="@+id/register_editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="请输入用户名"
+            android:maxLines="1"
+            android:background="@drawable/edtt"
+            android:textColorHint="@color/colorGray" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        app:errorTextAppearance="@style/TextAppearance.Design.Error"
+        android:id="@+id/register_textInputLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginRight="200dp">
+
+        <EditText
+        android:id="@+id/register_editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="请输入密码"
+        android:background="@drawable/edtt"
+        android:maxLines="1"
+        android:inputType="textWebPassword"
+        android:textColorHint="@color/colorGray" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        app:errorTextAppearance="@style/TextAppearance.Design.Error"
+        android:id="@+id/register_textInputLayoutPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp">
+
+        <EditText
+            android:id="@+id/register_editTextPasswordagain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="请再次输入密码"
+            android:gravity="center"
+            android:background="@drawable/edtt"
+            android:maxLines="1"
+            android:inputType="textWebPassword"
+            android:textColorHint="@color/colorGray" />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        app:errorTextAppearance="@style/TextAppearance.Design.Error"
+        android:id="@+id/register_textInputLayoutphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="200dp">
+
+        <EditText
+            android:id="@+id/register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入手机号码"
+            android:gravity="center"
+            android:background="@drawable/edtt"
+            android:maxLines="1"
+            android:inputType="phone"
+            android:textColorHint="@color/colorGray" />
+
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="30dp">
+
+        <Button
+            android:id="@+id/register_quitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="取消"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/register_regBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="@string/register"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

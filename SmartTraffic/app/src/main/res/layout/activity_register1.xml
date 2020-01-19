@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.user.Register1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/register1_imgleft"
+            android:layout_width="74dp"
+            android:layout_height="42dp"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/arrow_left" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="注册"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ACA8A8"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/register1_name"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="请输入用户名"
+        android:textColorHint="#000000"
+        android:background="@drawable/edtt5"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/register1_email"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="请输入邮箱"
+        android:textColorHint="#000000"
+        android:background="@drawable/edtt5"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/register1_password"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="请输入密码"
+        android:textColorHint="#000000"
+        android:background="@drawable/edtt5"/>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/register1_repassword"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="请确认密码"
+        android:textColorHint="#000000"
+        android:background="@drawable/edtt5"/>
+
+    <Button
+    android:id="@+id/register1_btn"
+    android:layout_marginTop="20dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="提交"
+    android:textSize="20sp"
+    android:background="@drawable/edtt1"/>
+</LinearLayout>

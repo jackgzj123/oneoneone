@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.Item43Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/left_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="日志查询"
+            android:textColor="#fff"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+<!--    <android.support.v4.widget.SwipeRefreshLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:id="@+id/refreshable_view"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <ListView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:id="@+id/list_view"/>-->
+
+<!--    </android.support.v4.widget.SwipeRefreshLayout>-->
+
+
+    <com.lenovo.smarttraffic.ui.RefreshableView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refreshable_view">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/list_view"/>
+    </com.lenovo.smarttraffic.ui.RefreshableView>
+
+
+</LinearLayout>

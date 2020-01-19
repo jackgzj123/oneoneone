@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item37activity.Item37Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/change" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="小车充值"
+            android:textColor="#fff"
+            android:textSize="45dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item37_img1"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/setting"/>
+        <LinearLayout
+            android:layout_toRightOf="@+id/item37_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="第1号小车 剩余余额"/>
+            <TextView
+                android:id="@+id/item37_car1yue"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="81"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/item37_btn1"
+            android:background="@drawable/btnstyle2"
+            android:layout_alignParentRight="true"
+            android:text="充    值"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item37_img2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/setting"/>
+        <LinearLayout
+            android:layout_toRightOf="@+id/item37_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="第2号小车 剩余余额"/>
+            <TextView
+                android:id="@+id/item37_car2yue"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="81"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/item37_btn2"
+            android:background="@drawable/btnstyle2"
+            android:layout_alignParentRight="true"
+            android:text="充    值"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item37_img3"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/setting"/>
+        <LinearLayout
+            android:layout_toRightOf="@+id/item37_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="第3号小车 剩余余额"/>
+            <TextView
+                android:id="@+id/item37_car3yue"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="81"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/item37_btn3"
+            android:background="@drawable/btnstyle2"
+            android:layout_alignParentRight="true"
+            android:text="充    值"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item37_img4"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/setting"/>
+        <LinearLayout
+            android:layout_toRightOf="@+id/item37_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="第4号小车 剩余余额"/>
+            <TextView
+                android:id="@+id/item37_car4yue"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="81"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/item37_btn4"
+            android:background="@drawable/btnstyle2"
+            android:layout_alignParentRight="true"
+            android:text="充    值"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/item37_img5"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/setting"/>
+        <LinearLayout
+            android:layout_toRightOf="@+id/item37_img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="第5号小车 剩余余额"/>
+            <TextView
+                android:id="@+id/item37_car5yue"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#FB8C00"
+                android:text="81"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/item37_btn5"
+            android:background="@drawable/btnstyle2"
+            android:layout_alignParentRight="true"
+            android:text="充    值"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

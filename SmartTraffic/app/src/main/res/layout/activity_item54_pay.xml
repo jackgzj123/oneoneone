@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.item54activity.Item54PayActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4a9fdc">
+        <ImageView
+            android:id="@+id/lgb2_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@mipmap/back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ETC充值"
+            android:textColor="#fff"
+            android:textSize="45dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:text="车牌编号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <EditText
+            android:background="@drawable/edtt9"
+            android:hint="1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:text="车牌号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <Spinner
+            android:id="@+id/item54_pay_spinner"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="100dp"
+            android:text="充值金额："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_pay_10yuan"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edtt5"
+            android:text="10 元"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_pay_50yuan"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edtt5"
+            android:text="50 元"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/item54_pay_100yuan"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edtt5"
+            android:text="100 元"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/item54_pay_edt"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/edtt5"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="1-999"
+            android:textSize="20sp"
+            android:maxLength="3"/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:text="元："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/item54_pay_btn"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edtt1"
+        android:textSize="20sp"
+        android:text="充值"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

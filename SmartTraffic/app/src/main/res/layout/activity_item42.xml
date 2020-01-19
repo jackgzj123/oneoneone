@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.Item42Activity">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/item42_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/arrow_left"/>
+    <TextView
+        android:id="@+id/item42_tv"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="小车地图信息"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/map_location"
+            android:background="@drawable/edtt9"/>
+        <ImageView
+            android:id="@+id/item42_qiehuan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/map_layer"
+            android:background="@drawable/edtt9"/>
+        <ImageView
+            android:id="@+id/item42_cardiwei"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/map_marker"
+            android:background="@drawable/edtt9"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/map_line"
+            android:background="@drawable/edtt9"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
